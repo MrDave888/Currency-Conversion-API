@@ -1,0 +1,69 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 16pt;
+}
+h2{
+  margin: 0;
+  margin-top: 18px;
+  padding: 0;
+  font-size: 12pt;
+}
+p{
+  font-size: 12pt;
+}
+input[type="text"], input[type="number"]{
+  width: 90%;
+  padding: 3px;
+  margin-top: 6px;
+}
+input[type="submit"]{
+  background-color: #16a085;
+  width: 90%;
+  line-height: 30px;
+  vertical-align: center;
+  margin-top: 8px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+input[type="submit"]:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+input[type="submit"]:focus, input[type="submit"]:active{
+  outline: none;
+}
+.formDiv{
+  border:1px solid #16a085;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.actions ul{
+  margin: 0;
+  padding: 0;
+  line-height: 10px;
+}
+.actions li{
+  display: inline-block;
+}
+.actions p{
+  float: right;
+  padding-left:6px;
+  padding-right: 8px;
+}
+.actions input[type="radio"]{
+  margin-top: 15px;
+  vertical-align: middle;
+  background: transparent;
+  border: black;
+}
+
+.responseBox{
+  height: 250px;
+  border: 1px solid grey;
+}

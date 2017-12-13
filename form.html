@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <link rel="stylesheet" type="text/css" href="css/grid.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="form.js"></script>
+</head>
+<body>
+  <div class="grid-2 grid-offset-5 grid-6-md grid-offset-3-md formDiv">
+    <form class="exchangeForm" name="exchange" action="" method="">
+      <h1>Post, Put &amp; Delete Form</h1>
+      <div class="actions grid-12">
+        <h2>Action</h2>
+        <ul>
+          <li>
+            <input class="postRadio" type="radio" name="actionChoice" value="1"/><p>Post</p>
+          </li>
+          <li>
+            <input class="putRadio" type="radio" name="actionChoice" value="2"/><p>Put</p>
+          </li>
+          <li>
+            <input class="delRadio" type="radio" name="actionChoice" value="3"/><p>Delete</p>
+          </li>
+        </ul>
+
+
+      </div>
+      <div class="code grid-12">
+        <h2>Currency Code</h2>
+        <input type="text" name="code" placeholder="Example: GBP" />
+      </div>
+      <div class="name grid-12">
+        <h2>Currency Name</h2>
+        <input type="text" name="name" placeholder="Example: Great British Pound Sterling" />
+      </div>
+      <div class="rate grid-12">
+        <h2>Rate (£=1)</h2>
+        <input type="text" name="rate" placeholder="Example: 1.56" />
+      </div>
+      <div class="country grid-12">
+        <h2>Countries (Seperate countries with comma)</h2>
+        <input type="text" name="country" placeholder="Example: France, Germany, Switzerland"/>
+      </div>
+      <div class="grid-12">
+        <input type="submit" />
+      </div>
+      <div class="response grid-12">
+        <h2>Response</h2>
+        <div class="responseBox grid-12">
+
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
